@@ -1,0 +1,948 @@
+@font-face {
+    font-family: 'FONTSPRING DEMO - Roc Grotesk ExtraWide';
+    src: url('../fonts/FONTSPRINGDEMO-RocGroteskExtraWideBold.eot');
+    src: url('../fonts/FONTSPRINGDEMO-RocGroteskExtraWideBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskExtraWideBold.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskExtraWideBold.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskExtraWideBold.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskExtraWideBold.svg#FONTSPRINGDEMO-RocGroteskExtraWideBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Roc Grotesk ExtraWide';
+    src: url('../fonts/FONTSPRINGDEMO-RocGroteskExtraWideMediumRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-RocGroteskExtraWideMediumRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskExtraWideMediumRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskExtraWideMediumRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskExtraWideMediumRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskExtraWideMediumRegular.svg#FONTSPRINGDEMO-RocGroteskExtraWideMediumRegular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Roc Grotesk';
+    src: url('../fonts/FONTSPRINGDEMO-RocGroteskLightRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-RocGroteskLightRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskLightRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskLightRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskLightRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskLightRegular.svg#FONTSPRINGDEMO-RocGroteskLightRegular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Roc Grotesk Wide';
+    src: url('../fonts/FONTSPRINGDEMO-RocGroteskWideRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-RocGroteskWideRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskWideRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskWideRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskWideRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskWideRegular.svg#FONTSPRINGDEMO-RocGroteskWideRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Roc Grotesk Wide';
+    src: url('../fonts/FONTSPRINGDEMO-RocGroteskWideLightRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-RocGroteskWideLightRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskWideLightRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskWideLightRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskWideLightRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-RocGroteskWideLightRegular.svg#FONTSPRINGDEMO-RocGroteskWideLightRegular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Gibson Book';
+    src: url('../fonts/FONTSPRINGDEMO-GibsonBookRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-GibsonBookRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-GibsonBookRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-GibsonBookRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-GibsonBookRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-GibsonBookRegular.svg#FONTSPRINGDEMO-GibsonBookRegular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Gibson';
+    src: url('../fonts/FONTSPRINGDEMO-GibsonBold.eot');
+    src: url('../fonts/FONTSPRINGDEMO-GibsonBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-GibsonBold.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-GibsonBold.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-GibsonBold.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-GibsonBold.svg#FONTSPRINGDEMO-GibsonBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Gibson';
+    src: url('../fonts/FONTSPRINGDEMO-GibsonLightRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-GibsonLightRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-GibsonLightRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-GibsonLightRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-GibsonLightRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-GibsonLightRegular.svg#FONTSPRINGDEMO-GibsonLightRegular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Gibson';
+    src: url('../fonts/FONTSPRINGDEMO-GibsonSemiboldRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-GibsonSemiboldRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-GibsonSemiboldRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-GibsonSemiboldRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-GibsonSemiboldRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-GibsonSemiboldRegular.svg#FONTSPRINGDEMO-GibsonSemiboldRegular') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Gibson';
+    src: url('../fonts/FONTSPRINGDEMO-GibsonMediumRegular.eot');
+    src: url('../fonts/FONTSPRINGDEMO-GibsonMediumRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FONTSPRINGDEMO-GibsonMediumRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-GibsonMediumRegular.woff') format('woff'),
+        url('../fonts/FONTSPRINGDEMO-GibsonMediumRegular.ttf') format('truetype'),
+        url('../fonts/FONTSPRINGDEMO-GibsonMediumRegular.svg#FONTSPRINGDEMO-GibsonMediumRegular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'FONTSPRING DEMO - Roc Grotesk Wide';
+    font-weight: normal;
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography Starts Here */
+h1{
+    font-size:  78px;
+    line-height: 88px;
+    color: #000000;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    font-family: 'FONTSPRING DEMO - Roc Grotesk Wide';
+    margin-top: 0;    
+    margin-bottom: 10px;
+}
+h2{
+    font-size:  30px;
+    line-height: 40px;
+    color: #000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'FONTSPRING DEMO - Roc Grotesk Wide';    
+    margin-top: 0;    
+    margin-bottom: 10px;
+}
+h3{
+    font-size:  33px;
+    line-height: 37px;
+    color: #000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'FONTSPRING DEMO - Gibson';  
+    margin-top: 0;    
+    margin-bottom: 10px;  
+}
+h4{
+    font-size:  24px;
+    line-height: 40px;
+    color: #000000;
+    letter-spacing: 1px;
+    font-family: 'FONTSPRING DEMO - Gibson';    
+    font-weight: 300;
+    margin-top: 0;    
+    margin-bottom: 10px;
+}
+p{
+    font-size:  16px;
+    line-height: 18px;
+    color: #000000;
+    letter-spacing: 1px;
+    font-family: 'FONTSPRING DEMO - Gibson';    
+    font-weight: 300;
+    margin-top: 0;    
+    margin-bottom: 10px;
+}
+.common-btn{
+    border: 1px solid #000000;
+    font-size:  24px;
+    line-height: 29px;
+    color: #000000;
+    letter-spacing: 1px;
+    font-family: 'FONTSPRING DEMO - Gibson';    
+    font-weight: 500;
+    padding: 11px 14px;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+    background: #FFFFFF;
+}
+.common-btn:hover{
+    box-shadow: 10px 10px 0px #000000;
+}
+/* Typography Ends Here */
+
+/* Common Css Starts Here*/
+.discussion-box{
+    font-size:  25px;
+    line-height: 40px;
+    color: #000000;
+    letter-spacing: 1px;
+    font-family: 'FONTSPRING DEMO - Gibson';    
+    font-weight: 300;
+    transition: 0.4s ease-in-out;
+}
+.dis-box{
+    width: 100%;
+    max-width: 17px;
+    height: 17px;
+    margin: 0 1px;
+    display: inline-block;
+    background-color: #0002FF;
+    transition: 0.4s ease-in-out;
+    transform: rotate(-10deg);
+}
+.discussion-box:hover  .dis-box {
+    transform: rotate(0deg) translateY(-10px);
+}
+
+/* Common Css Starts Here*/
+ul,ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li a,
+ol li a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+.container{
+    max-width: 1630px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* Common Css Ends Here*/
+
+/* Header Css Starts Here */
+.header .header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    background: #FFFFFF;
+    position: relative;
+    z-index: 10;
+}
+.header .header-wrapper .navbar{
+    padding: 0;
+}
+.header .header-wrapper .navbar .navbar-toggler {
+    padding: 26px 47px;
+    color: transparent;
+    border: transparent;
+}
+.header .header-wrapper .navbar .navbar-toggler .navbar-toggler-icon{
+    filter: invert(1);
+}
+.header .header-wrapper .header-lft{
+    display: flex;
+}
+.header-lft li {
+    border-right: 1px solid #000000;
+    display: inline-block;
+}
+.header-lft li a{
+    text-decoration: none;
+    padding: 23px 65px 23px 47px;
+    display: inline-block;
+    font-family: 'FONTSPRING DEMO - Roc Grotesk';
+    font-weight: 300;
+    font-size:  25px;
+    line-height: 40px;
+    color: #000000;
+    white-space: nowrap;
+}
+.header-lft li .header-logo .discussion-box{
+    font-weight: bold;
+    font-family: 'FONTSPRING DEMO - Roc Grotesk';
+}
+.header-lft li .header-content{
+    padding: 23px 27px 23px 38px;
+}
+.header-btn{
+    display: flex;
+    align-items: center;
+    padding-right: 37px;
+}
+.header-menu{
+    border-left: 1px solid #000000;
+}
+.header-rgt{
+    display: flex;
+}
+.header-rgt .header-btn .common-btn{
+    font-family: 'FONTSPRING DEMO - Roc Grotesk';
+    letter-spacing: 0.26px;
+    font-size:16px;
+    line-height: 18px;
+    font-weight: 300;
+}
+.header-rgt .header-btn .common-btn:hover{
+    box-shadow: 5px 5px 0px #000000;
+}
+.header-rgt .header-btn .common-btn .fa{
+    margin-right: 8px;
+}
+/* Header Css Ends Here */
+
+/* Banner Css Starts Here */
+.banner-section {
+    position: relative;
+    overflow: hidden;
+}
+.banner-section::before,
+.banner-section::after{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    filter: blur(50px);
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+}
+.banner-section::before {
+    background: transparent radial-gradient(closest-side at 30% 28%, #3C92FF 0%, #D298B06E 100%) 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 100%;
+    max-width: 1136px;
+    max-height: 1136px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -86px;
+}
+.banner-section::after {
+    background: transparent radial-gradient(closest-side at 30% 28%, #1A7DFF 0%, #C9E8FF89 100%) 0% 0% no-repeat padding-box;
+    right: 0;
+    transform: translateX(3%);
+    bottom: -317px;
+    max-width: 793px;
+    max-height: 664px;
+    left: auto;
+}
+.banner-section .banner-wrapper {
+    padding: 120px 0 30px 0;
+}
+.banner-section .banner-wrapper h1 .clip-path{
+    background: radial-gradient(closest-side at 30% 28%, #3C92FF 0%, #211E1B 100%) ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}   
+.banner-section .banner-wrapper h1 strong{
+    display: block;
+    font-weight: bold;
+    font-family: 'FONTSPRING DEMO - Roc Grotesk ExtraWide';
+}
+.banner-content-rgt {
+    position: relative;
+    padding-bottom: 70px;
+}
+.banner-content-rgt::before,
+.banner-content-rgt::after{
+    position: absolute;
+    border-left: 1px solid #000;
+    content: " ";
+    width: 1px;
+    height: 100%;
+    min-height: 500px;
+    display: inline-block;
+}
+.banner-content-rgt::before {
+    bottom: 100%;
+    left: 7px;
+    margin-bottom: 15px;
+}
+.banner-content-rgt::after {
+    top: calc(100% - 104px);
+    left: 7px;
+    margin-bottom: 15px;
+}
+.banner-section .banner-wrapper h2{
+    font-size: 74px;
+    line-height: 77px ;
+    letter-spacing: 2.22px;
+    text-transform: uppercase;
+    font-family: 'FONTSPRING DEMO - Roc Grotesk ExtraWide';
+    font-weight: bold;
+    text-transform: unset;
+}
+.banner-section .banner-wrapper .row {
+    align-items: end;
+}
+.banner-social-icon {
+    border: 1px solid #000000;
+    display: inline-flex;
+    padding: 4px 22px;
+    background: #fff;
+}
+.banner-social-icon li:not(:last-of-type) {
+    margin-right: 31px;
+}
+.banner-social-icon li a{
+    font-size: 18px;
+    color: #000000;
+}
+.banner-content {
+    display: inline-block;
+    margin-bottom: 34px;
+    width: 100%;
+}
+.banner-content-rgt h3 {
+    font-family: 'FONTSPRING DEMO - Roc Grotesk';
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.banner-discussion-box {
+    display: inline-flex;
+    padding-left: 77px;
+}
+.banner-discussion-box h4{
+    margin-bottom: 0;
+    font-size: 28px;
+    line-height: 32px;
+    color: #000000;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: 'FONTSPRING DEMO - Gibson';
+}
+.banner-discussion-box .discussion-box {
+    margin-left: 10px;
+    white-space: nowrap;
+    font-family: 'FONTSPRING DEMO - Roc Grotesk';
+    font-weight: bold;
+}
+.banner-discussion-box .discussion-box .dis-box {
+    background-color: #000000;
+}
+.learn-more-btn{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+}
+.learn-more-btn .common-btn{
+    padding: 16px 54px;
+}
+/* Banner Css Ends Here */
+
+/* Three Column Css Starts Here */
+.three-column-section {
+    padding: 58px 0;
+    position: relative;
+    overflow: hidden;
+}
+.three-column-section::before {
+    background-image: url("../images/three-column-blue.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 664px 793px;
+    max-width: 793px;
+    min-height: 500px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(-66%);
+}
+.three-column-wrapper{
+    position: relative;
+}
+.three-column-wrapper::before {
+    background-image: url("../images/three-column-shape.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140px;
+    max-width: 189px;
+    max-height: 172px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    content: " ";
+    position: absolute;
+    right: 25%;
+    top: -74px;
+    transform: translateX(-25%);
+}
+.three-column-section .three-column-wrapper .three-col-box{
+    max-width: 405px;
+    width: 100%;
+}
+.three-column-section .three-column-wrapper h3 {
+    text-transform: initial;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.48px;
+    font-weight: 300;
+    font-family: 'FONTSPRING DEMO - Gibson';
+}
+.three-column-section .three-column-wrapper h3 a{
+    text-decoration: underline;
+    color: inherit;
+}
+/* Three Column Css Ends Here */
+
+/* Marquee Css Starts Here */
+.marquee-section{
+    padding: 32px 0 23px 0;
+}
+.marquee-section h3{
+    font-family: 'FONTSPRING DEMO - Roc Grotesk';
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.48px;
+    margin-bottom: 0;
+}
+.marquee-section h3 strong{
+    font-family: 'FONTSPRING DEMO - Roc Grotesk ExtraWide';
+}
+.marquee-section .marquee-wrapper{
+    font-size: 0;
+    line-height: 0;
+}
+
+
+.banner-social-icon-wrap {
+    text-align: center;
+    padding: 124px 0 106px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+.banner-social-icon-wrap::before {
+    position: absolute;
+    border-left: 1px solid #000;
+    content: " ";
+    width: 1px;
+    height: 100%;
+    display: inline-block;
+    bottom: calc(100% - 125px);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+.banner-social-icon-wrap::after {
+    position: absolute;
+    border-left: 1px solid #000;
+    content: " ";
+    width: 1px;
+    height: 100%;
+    display: inline-block;
+    top: calc(100% - 125px);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+/* Marquee Css Ends Here */
+
+/* Footer Css Ends Here */
+.footer .footer-menu li a {
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 1.16px;
+    color: #000000;
+    font-family: 'FONTSPRING DEMO - Gibson';
+    font-weight: normal;
+    padding: 15px;
+    display: inline-block;
+    width: 100%;
+}
+.footer .footer-menu {
+    text-align: center;
+}
+.footer .footer-menu li{
+    border-top: 1px solid #000;
+}
+.footer .footer-menu li:last-of-type{
+    border-bottom: 1px solid #000;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 44px 0 53px 0;
+}
+.footer-bottom .banner-social-icon{
+    padding: 0;
+    border: 0;
+}
+/* Footer Css Ends Here */
+
+/* Common Css Starts Here */
+.footer,
+.banner-social-icon-wrap,
+.desktop-hide{
+    display: none;
+}
+/* Common Css Ends Here */
+
+
+@media (max-width:1466px) {
+    h1{
+        font-size: 70px;
+        line-height: 78px;
+    }
+    .banner-section .banner-wrapper h2 {
+        font-size: 66px;
+        line-height: 72px;
+        letter-spacing: 1px;
+    }
+    .banner-discussion-box {
+        padding-left: 70px;
+    }
+}
+@media (max-width:1366px) {
+    h1{
+        font-size: 65px;
+        line-height: 72px;
+    }
+    .banner-section .banner-wrapper h2 {
+        font-size: 60px;
+        line-height: 67px;
+    }
+    .banner-discussion-box {
+        padding-left: 50px;
+    }
+}
+@media (max-width:1166px) {
+    .header-lft li a {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .header-lft li .header-content {
+        padding: 15px 24px;
+    }
+    .header-lft li a {
+        text-decoration: none;
+        padding: 15px 60px 15px 40px;
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .header-btn {
+        padding-right: 30px;
+    }
+    .header .header-wrapper .navbar .navbar-toggler {
+        padding: 18px 40px;
+    }
+    h1{
+        font-size: 60px;
+        line-height: 67px;
+    }
+    .banner-section .banner-wrapper h2 {
+        font-size: 52px;
+        line-height: 58px;
+    }
+    .banner-discussion-box {
+        padding-left: 40px;
+    }
+    .learn-more-btn .common-btn {
+        padding: 16px 35px;
+    }
+    .common-btn {
+        font-size: 22px;
+        line-height: 28px;
+        padding: 10px 14px;
+    }
+}
+@media (max-width:1024px) {
+    .header-lft li a {
+        text-decoration: none;
+        padding: 10px 50px 10px 20px;
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .header .header-wrapper .navbar .navbar-toggler ,
+    .header-lft li .header-content {
+        padding: 15px;
+    }
+    .header-btn {
+        padding-right: 20px;
+    }
+    h1{
+        font-size: 55px;
+        line-height: 62px;
+    }
+    .banner-section .banner-wrapper h2 {
+        font-size: 50px;
+        line-height: 57px;
+    }
+    .common-btn {
+        font-size: 20px;
+        line-height: 26px;
+        padding: 8px 12px;
+    }   
+    .learn-more-btn {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        right: 0;
+        margin-top: 10px;
+        text-align: right;
+    }
+    .learn-more-btn .common-btn {
+        padding: 12px 30px;
+    }
+    .discussion-box {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .banner-discussion-box h4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .three-column-section .three-column-wrapper h3 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+}
+    
+@media (max-width:991px){
+    .header .header-wrapper .navbar .navbar-toggler ,
+    .header-lft li .header-content {
+        padding: 15px 10px;
+    }
+    .header-lft li a {
+        padding: 10px 50px 10px 15px;
+
+    }
+    .header-rgt .header-btn{
+        padding-right: 15px;
+    }
+    h1{
+        font-size: 50px;
+        line-height: 57px;
+    }
+    .banner-section .banner-wrapper h2 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+    .common-btn {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 6px 10px;
+    } 
+    .learn-more-btn .common-btn {
+        padding: 8px 20px;
+    }
+    .discussion-box {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .banner-discussion-box h4 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .dis-box {
+        max-width: 11px;
+        height: 11px;
+    }
+    .three-column-section .three-column-wrapper h3 {
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .three-column-wrapper::before {
+        top: -64px;
+        max-width: 120px;
+        max-height: 120px;
+        background-size: 120px;
+    }
+}
+@media (max-width:767px) {
+    h3 {
+        font-size: 17px;
+        line-height: 19px;
+        letter-spacing: 0.27px;
+        font-weight: 300;
+    }
+    .header-lft li:first-of-type{
+        display: none;
+    }
+    .header-lft li{
+        border: 0;
+    }
+    .header-rgt .header-btn{
+        display: none;
+    }
+    h1{
+        font-size: 41px;
+        line-height: 46px;
+    }
+    h1,
+    .banner-section .banner-wrapper h1 strong{
+        letter-spacing: 0.66px;
+    }
+    .banner-section .banner-wrapper h2 {
+        font-size: 39px;
+        line-height: 41px;
+    }
+    .banner-content-rgt,
+    .banner-wrap {
+        padding-left:25px;
+        padding-right:25px;
+    }
+    .banner-content-rgt::after {
+        display: none;
+    }
+    .banner-content-rgt::before {
+        min-height: 50px;
+        max-height: 50px;
+        margin-bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .banner-wrap .banner-social-icon{
+        display: none;
+    }
+    .banner-section .banner-wrapper {
+        position: relative;
+    }
+    .banner-section .banner-wrapper::before {
+        position: absolute;
+        border-left: 1px solid #000;
+        content: " ";
+        width: 1px;
+        height: 100%;
+        display: inline-block;
+        bottom: calc(100% - 100px);
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .banner-content {
+        margin-bottom: 60px;
+    }
+    .learn-more-btn {
+        display: inline-block;
+        position: relative;
+        right: 0;
+        margin-top: 36px;
+        width: 100%;
+        text-align: center;
+    }
+     .common-btn {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 5px 10px;
+    }   
+    .learn-more-btn .common-btn {
+        padding: 6px 17px;
+    }
+    .banner-discussion-box h4 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .banner-content-rgt {
+        padding-bottom: 10px;
+    }
+    .discussion-box {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .three-column-section .three-column-wrapper .three-col-box{
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .three-column-section .three-column-wrapper .col-sm-12:last-of-type .three-col-box{
+        margin-bottom: 0;
+    }
+    .three-column-section {
+        padding: 94px 40px 0 40px;
+        overflow: visible;
+    }
+    .three-column-section .three-column-wrapper h3 {
+        font-size: 23px;
+        line-height: 31px;
+        letter-spacing: 0.37px;
+    }
+    .three-column-wrapper::before {
+        background-size: 155px 141px;
+        max-width: 155px;
+        max-height: 141px;
+        right: 5%;
+        top: -270px;
+        transform: translateX(-5%);
+    }
+    .three-column-section::before {
+        display: inline-block;
+    }
+    .mobile-hide{
+        display: none;
+    }
+    .footer,
+    .banner-social-icon-wrap,
+    .desktop-hide{
+        display: block;
+    }
+    .marquee-section h3 {
+        font-size: 18px;
+        line-height: 40px;
+        letter-spacing: 0.29px;
+    }
+    .marquee-section {
+        padding: 3px 0;
+        border-top:1px solid #000;
+        border-bottom:1px solid #000;
+    }
+}
+@media (max-width:640px) {
+    .three-column-wrapper::before {
+        right: 0;
+        transform: translateX(30px);
+        max-width: 120px;
+        max-height: 120px;
+        background-size: 120px;
+        top: -240px;
+    }
+    .three-column-section::before {
+        background-size: contain;
+        max-width: 500px;
+        min-height: 500px;
+    }
+}
+@media (max-width:480px) {
+    .three-column-wrapper::before {
+        transform: translateX(30px);
+        max-width: 100px;
+        max-height: 100px;
+        background-size: 100px;
+        top: -225px;
+    }
+}
